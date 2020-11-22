@@ -10,4 +10,4 @@ Setup an image pre-processing pipeline that handles data augmentation and prepar
 
 Train a fully supervised melanoma classifier on the labeled data that you have, and test it to serve as a baseline.
 
-Train a semi-supervised GAN model to make use of the unlabeled training data. Run the trained model on the test set and compare its performance to the supervised baseline.
+Train a semi-supervised GAN model to make use of the unlabeled training data. Run the trained model on the test set and compare its performance to the supervised baseline. 
