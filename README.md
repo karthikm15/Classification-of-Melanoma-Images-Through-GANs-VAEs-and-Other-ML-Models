@@ -2,7 +2,7 @@
 
 ## Prerequisites: 
 
-This liveProject is intended for intermediate Python programmers with at least some deep learning experience, preferably in image classification with convolutional
+This project is intended for intermediate Python programmers with at least some deep learning experience, preferably in image classification with convolutional
 neural networks. Knowledge of PyTorch would be helpful, but is not required. No prior experience in generative modeling, including GANs, is assumed. 
 
 ### Tools: 
@@ -64,7 +64,7 @@ The model used Tensorflow with a Keras backend to run. The code is stored in “
 
 ### Variational Autoencoders:
 
-The variational auto encoder trained on the MNIST dataset due to computational expenses.  Here were the steps taken to implement the model:
+The variational autoencoder trained on the MNIST dataset due to computational expenses.  Here were the steps taken to implement the model:
 - Read in the MNIST dataset, define train and test datasets, and determine activation function.
 - Create the encoder using a series of convolutional and dropout layers.
 - Create the decoder using a series of dense, convolutional, and dropout layers.
