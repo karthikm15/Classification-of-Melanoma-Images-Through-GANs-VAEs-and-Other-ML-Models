@@ -52,7 +52,7 @@ Using a Tensorflow backend, the supervised image classifier achieved an accuracy
 - Run the model through the testing images and find the accuracy of the model.
 The model can be found in "Training a Supervised Image Classifier.ipynb".
 
-## Semi-Supervised Image Classifier:
+### Semi-Supervised Image Classifier:
 
 The semi-supervised classifier achieved an accuracy of ~75%. Here were the steps taken to implement the model.
 - Train a supervised image classifier with the labeled images using the steps outlined above.
@@ -62,7 +62,7 @@ The semi-supervised classifier achieved an accuracy of ~75%. Here were the steps
 The model used Tensorflow with a Keras backend to run. The code is stored in “Training a Semi-Supervised Image Classifier”.ipynb
 
 
-## Variational Autoencoders:
+### Variational Autoencoders:
 
 The variational auto encoder trained on the MNIST dataset due to computational expenses.  Here were the steps taken to implement the model:
 - Read in the MNIST dataset, define train and test datasets, and determine activation function.
